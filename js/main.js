@@ -175,7 +175,7 @@
 
 	
 
-	var counter = function() {
+	var counter = function() { // Animated counter of products done.
 		
 		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-about').waypoint( function( direction ) {
 
@@ -190,7 +190,7 @@
 					  {
 					    number: num,
 					    numberStep: comma_separator_number_step
-					  }, 7000
+					  }, 2000 // Milliseconds it takes for counter to change.
 					);
 				});
 				
