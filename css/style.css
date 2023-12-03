@@ -6658,6 +6658,11 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem !important; }
 
+.mb-6 {
+  margin-bottom: 1.5rem !important;
+  margin-right: 5rem;
+  width: auto; }
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important; }
